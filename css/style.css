@@ -6,4 +6,88 @@
 
 header {
     font-family: 'Caveat Brush', cursive;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-image: url(../img/backwood.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
+
+nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 35px 0 0 ;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    border-bottom: 8px solid #E53F6F;
+    border-width: 5px;
+}
+
+#soir {
+    font-size: 30px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+#underline {
+    border-top: 5px solid pink;
+    width: 20px; 
+}
+#hr1 {
+    width: 28px;
+    height: 10px;
+    text-align: center;
+    align-self: center;
+    background-color: #E53F6F;
+    border: none;
+    margin-top: 5px;
+}
+
+#cerf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+#triangle {
+    width: 0;
+	height: 0;
+	border-width: 0 200px 200px 0;
+	border-color: transparent #E53F6F transparent transparent;
+	border-style: solid;
+    position: absolute;
+}
+
+#img1 {
+    z-index: 1;
+}
+
+#arrow {
+    border: solid #E53F6F;
+    border-width: 0 3px 3px 0;
+    display:block;
+    width: 30px;
+    padding: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: auto;
+  }
