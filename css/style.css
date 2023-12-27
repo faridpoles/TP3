@@ -40,13 +40,16 @@ nav li a:hover {
 }
 
 #soir {
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
     font-weight: bold;
 }
 
+#soir p {
+    position: relative;
+}
 #underline {
     border-top: 5px solid pink;
     width: 20px; 
@@ -213,7 +216,6 @@ address {
     font-size: 15px;
     display: flex;
     flex-direction: column;
-
 }
 
 h3 {
@@ -221,7 +223,8 @@ h3 {
     font-family: 'Caveat Brush', cursive;
     font-weight: bold;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    position: relative;
 }
 
 #contact {
@@ -235,4 +238,13 @@ h3 {
 
 #contact > a {
     margin-right: 15px;
+}
+
+.absol {
+    position: absolute;
+    bottom:3px
+}
+
+.underscore {
+    font-size: 23px;
 }
